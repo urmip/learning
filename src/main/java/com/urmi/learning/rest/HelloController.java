@@ -11,4 +11,10 @@ public class HelloController {
         return "Greetings from Feature-1!";
     }
 
+    @RequestMapping("/chin")
+    public String index1() {
+        return "hi from chinmay!";
+    }
+
+
 }
